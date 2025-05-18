@@ -12,7 +12,8 @@ This MATLAB project uses a fine-tuned ResNet-18 deep learning model to classify 
  3) brain_tumor_training/ # Training script and dataset handling
  4) brain_tumor_testing/ # Testing and evaluation script
  5) brainTumorDetectionGUI.m # GUI application
-├── images/
+
+├──images/
  1) tumor_image.png # MRI test image
  2) tumor_image2.png # MRI test image
  3) third_training_resnet.png # Snapshot of training process
