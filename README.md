@@ -45,8 +45,8 @@ This MATLAB project uses a fine-tuned ResNet-18 deep learning model to classify 
 
 - MRI test images and training snapshots are available in the `images/` folder:
 
-![Training](images/third_training_resnet.png)
-![Tumor image](images/tumor_image.png)
+![Training](C:\Users\rahul\OneDrive\Documents\MATLAB\Brain_tumor_detection\images\third_training_resnet.png)
+![Tumor image](C:\Users\rahul\OneDrive\Documents\MATLAB\Brain_tumor_detection\images\tumor_image.png)
 
 
 ---
