@@ -1,0 +1,28 @@
+# Ignore backup files created by MATLAB
+*.asv
+*.autosave
+
+# Ignore .mat files (e.g., trained models, large variables)
+*.mat
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore MATLAB crash dumps
+matlab_crash_dump.*
+javaclasspath.txt
+pathdef.m
+
+# Ignore hidden folders (like Mac or Windows indexing)
+*.tmp
+~$*
+
+# Ignore data or results (optional - if too big or generated during runtime)
+data/
+results/
+
+# Ignore model folders if they contain large files
+model
+
+C:\Users\rahul\OneDrive\Documents\MATLAB\Brain_tumor_detection\brain_tumor_models\brain_tumor_resnet18_model
