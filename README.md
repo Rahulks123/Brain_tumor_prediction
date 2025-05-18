@@ -1,45 +1,62 @@
-# Brain Tumor Prediction using MATLAB
+# Brain Tumor Detection using MATLAB (ResNet-18)
 
-This project uses image processing and deep learning in MATLAB to predict the presence of brain tumors from MRI images.
+This MATLAB project uses a fine-tuned ResNet-18 deep learning model to classify MRI brain scans as having a tumor or not. It includes training, testing, and a GUI for easy interaction.
 
-## Features
-- Preprocessing of MRI images (grayscale, resizing, normalization)
-- Feature extraction
-- CNN/Transfer Learning-based classification
-- Visualization of prediction masks
+---
 
-## How to Run
+## 📁 Project Structure
 
-1. Place MRI images in the `data/` folder.
-2. Run `main.m` to:
-   - Load image
-   - Preprocess
-   - Predict tumor presence
-   - Display output
+Brain_tumor_detection/
+├── brain_tumor_models/
+│ ├── brain_tumor_resnet18_model/ # Trained model and network layers
+│ ├── brain_tumor_training/ # Training script and dataset handling
+│ ├── brain_tumor_testing/ # Testing and evaluation script
+│ └── brainTumorDetectionGUI.m # GUI application
+├── images/
+│ ├── mri1.jpg # MRI test image
+│ ├── mri2.jpg # MRI test image
+│ └── training_sample.png # Snapshot of training process
+├── .gitignore
+└── README.md
 
-## File Structure
+---
 
-- `main.m`: Main driver script
-- `preprocess.m`: Image preprocessing
-- `predictTumor.m`: Prediction using trained model
-- `model/`: Contains `trainedModel.mat`
-- `utils/`: Helper functions
-- `results/`: Output masks and prediction visualizations
+## 🚀 How to Run
 
-## Dependencies
+1. Open `brainTumorDetectionGUI.m` in MATLAB.
+2. Run the GUI and upload an MRI image to classify.
+3. View the classification result in the GUI.
 
-- MATLAB R2020a or higher
-- Image Processing Toolbox
+> Alternatively, you can run training and testing scripts separately from the `brain_tumor_training` and `brain_tumor_testing` files.
+
+---
+
+## 🧠 Model
+
+- Architecture: ResNet-18
+- Transfer learning applied on a custom MRI brain tumor dataset
+- Trained using MATLAB's Deep Learning Toolbox
+
+---
+
+## 🖼️ Sample Images
+
+- MRI test images and training snapshots are available in the `images/` folder:
+
+![Training](images/third_training_resnet.png)
+![Tumor image](images/tumor_image.png)
+
+
+---
+
+## 📦 Requirements
+
+- MATLAB R2021a or later
 - Deep Learning Toolbox
+- Image Processing Toolbox
 
-## Sample Output
+---
 
-![Tumor Mask](results/output_mask1.png)
+## 🧑‍💻 Author
 
-## Dataset Used
-
-(If using public data like BraTS, include link or mention source.)
-
-## Author
-
-Rahul K S
+**Rahul K S**
