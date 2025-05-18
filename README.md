@@ -6,16 +6,16 @@ This MATLAB project uses a fine-tuned ResNet-18 deep learning model to classify 
 
 ## 📁 Project Structure
 
-Brain_tumor_detection/
-├── brain_tumor_models/
-│ ├── brain_tumor_resnet18_model/ # Trained model and network layers
-│ ├── brain_tumor_training/ # Training script and dataset handling
-│ ├── brain_tumor_testing/ # Testing and evaluation script
-│ └── brainTumorDetectionGUI.m # GUI application
+├──Brain_tumor_detection/
+ 1) brain_tumor_models/
+ 2) brain_tumor_resnet18_model/ # Trained model and network layers
+ 3) brain_tumor_training/ # Training script and dataset handling
+ 4) brain_tumor_testing/ # Testing and evaluation script
+ 5) brainTumorDetectionGUI.m # GUI application
 ├── images/
-│ ├── mri1.jpg # MRI test image
-│ ├── mri2.jpg # MRI test image
-│ └── training_sample.png # Snapshot of training process
+ 1) tumor_image.png # MRI test image
+ 2) tumor_image2.png # MRI test image
+ 3) third_training_resnet.png # Snapshot of training process
 ├── .gitignore
 └── README.md
 
