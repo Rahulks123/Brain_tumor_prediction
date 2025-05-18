@@ -17,7 +17,8 @@ This MATLAB project uses a fine-tuned ResNet-18 deep learning model to classify 
  1) tumor_image.png # MRI test image
  2) tumor_image2.png # MRI test image
  3) third_training_resnet.png # Snapshot of training process
-├── .gitignore
+
+├──.gitignore
 └── README.md
 
 ---
